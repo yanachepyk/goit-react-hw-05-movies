@@ -30,5 +30,6 @@ export const ImgContainer = styled.div`
   img {
     width: 100%;
     object-fit: cover;
+    filter: brightness(0.5);
   }
 `;

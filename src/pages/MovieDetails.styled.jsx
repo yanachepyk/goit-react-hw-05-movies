@@ -7,6 +7,7 @@ export const PosterContainer = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  height: 500px;
 `;
 
 export const MovieTitle = styled.h2`
@@ -14,7 +15,7 @@ export const MovieTitle = styled.h2`
 `;
 
 export const Poster = styled.img`
-  max-width: 30%;
+  height: 80%;
   box-shadow: 1px 1px 10px 1px #000;
 `;
 
